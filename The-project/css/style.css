@@ -1,0 +1,132 @@
+
+body {
+	background-color:#61122f;
+	}
+/**HEADER**/
+#header-nav{background-color:#f6b319;
+    border-radius: 0; border: 0;
+}
+#logo-img{background: url(https://www.davidchuschinabistro.com/images/restaurant-logo_large.png) no-repeat; width: 150px; height: 150px;
+   margin:10px 15px 10px 0;
+}
+
+
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	/*resturant name*/
+	font-family:lora,sans-serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 0; line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	/*Kosher-cert*/
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span{
+	/*star-k */
+vertical-align:middle; 	
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+#phone {margin-top: 5px;}
+
+#phone a {
+	/* Phone Number */
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div {
+	/*We Deliver */
+	color: #557c3e;
+	text-align: left;
+	padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px
+}
+
+/* END HERE */
+/**********Large devices only **********/
+@media (min-width: 1200px){ 
+
+
+}
+/**********Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+/*Header*/
+#logo-img{
+	background: url('(https://www.davidchuschinabistro.com/images/resturant-logo_medium.png')
+	no-repeat
+	width:100px;
+	height: 100px;
+	margin: 5px 5px 5px 0;
+
+}
+/*end here*/ 
+}
+
+
+/**********Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+/**********Extral small devices only **********/
+@media (max-width: 767){ /* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	
+	}
+.navbar-brand h1 { /* Resturant name */
+padding-top: 10px;
+font-size: 5vw; /*1vw =1% of viewporth width */
+
+ }
+ .navbar-brand p { /* Kosher cert*/
+ 	text-transform: uppercase;
+      font-size: .6em;
+      margin-top: 12px;
+
+  }
+ .navbar-brand p img { /* Star-k */
+ height: 20px; }
+
+}
+#collapsable-nav a {
+/* Collapsed nav menu glyph */
+font-variant-caps: 1.2em;
+
+}
+#collapsable-nav a span {
+	font-size: 1em;
+margin-right: 5px
+}
+
+
